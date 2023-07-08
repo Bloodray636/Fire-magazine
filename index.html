@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Пламя</title>
+        <!--CSS-->
+		<link rel="stylesheet" href="assets/css/style.css" type="text/css">
+		<!--Bootstrap CSS-->
+		<link href="assets/css/bootstrap.min.css" rel="stylesheet" >
+    </head>
+    <body>
+
+        <div class="top-menu color-bg-1">
+            <div class="container">
+                <div class="row justify-content-between">
+                    <div class="col-xl-5 col-lg-5 col-md-3 col-sm-2 col-2 d-flex align-items-center justify-content-lg-start">
+                        <div class="visually d-flex align-items-center btn">
+                            <img src="assets/img/eye.svg" alt="eye">
+                            <p class="d-xl-block d-lg-block d-none text-start">Версия для слабовидящих</p>
+                        </div>
+                        <div class="visually d-flex align-items-center">
+                            <img src="assets/img/search.svg" alt="search">
+                            <form class="search d-xl-block d-lg-block d-md-block d-none text-start" role="search">
+                                <input class="form-control me-2" type="search" placeholder="Поиск" aria-label="Поиск">
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-xl-7 col-lg-7 col-md-9 col-sm-10 col-10 text-end">
+                        <a class="d-xl-inline d-lg-inline d-md-inline d-block" href="#">Издается с 1935 года</a>
+                        <a href="http://www.odesskoe-plamy.ru">Сетевое издание http://www.odesskoe-plamy.ru</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+            <nav class="navbar navbar-expand-lg ">
+                <div class="container">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <img src="assets/img/menu-icon.svg" alt="menu-icon">
+                    </button>
+                    <a class="navbar-brand" href="index.html">
+                        <img src="assets/img/logo-2.png" alt="Logo" class="d-inline-block align-text-top">
+                    </a>
+                    <div class="img-win d-xl-flex d-lg-flex align-items-center d-none">
+                        <img class="win-1" src="assets/img/win-11.png" alt="win-1">
+                        <img class="win-2" src="assets/img/win-22.png" alt="win-2">
+                    </div>
+                    <div class="img-win d-xl-none d-lg-none align-items-center d-flex">
+                        <img class="win-1" src="assets/img/win-11.png" alt="win-1">
+                        <img class="win-2" src="assets/img/win-22.png" alt="win-2">
+                    </div>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav nav-underline w-100 justify-content-lg-around justify-content-md-start">
+                            <li class="nav-item">
+                                <a class="nav-link text-lg-center text-start active text-uppercase" aria-current="page" href="index.html">Главная</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-lg-center text-start text-uppercase" href="#">Коллектив</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-lg-center text-start text-uppercase" href="#">О газете</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-lg-center text-start text-uppercase" href="#">Контакты</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-lg-center text-start text-uppercase" href="#">Объявления</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <div class="slider container">
+                <div id="carouselExampleCaptions" class="carousel slide">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner position-relative">
+                      <div class="carousel-item active">
+                        <img src="assets/img/slider-1.png" class="d-block w-100" alt="news-slider">
+                        <div class="carousel-caption d-block">
+                          <h3 class="text-start">Достопримечательности Одесского района</h3>
+                          <h4 class="text-start">Одесский Свято Успенский храм</р>
+                            <div class="d-block text-start">
+                                <button class="btn btn-slider w-auto">Читать далее</button>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="assets/img/slider-2.png" class="d-block w-100" alt="news-slider">
+                        <div class="carousel-caption d-block">
+                          <h3 class="text-start">Достопримечательности Одесского района</h3>
+                          <h4 class="text-start">Одесский Свято Успенский храм</р>
+                            <div class="d-block text-start">
+                                <button class="btn btn-slider w-auto">Читать далее</button>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="assets/img/slider-3.png" class="d-block w-100" alt="news-slider">
+                        <div class="carousel-caption d-block">
+                          <h3 class="text-start">Достопримечательности Одесского района</h3>
+                          <h4 class="text-start">Одесский Свято Успенский храм</р>
+                            <div class="d-block text-start">
+                                <button class="btn btn-slider w-auto">Читать далее</button>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+            </div>
+
+            <div class="news">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-9 col-md-8 col-sm-9 col-12">
+                            <div class="row">
+                                <div class="title-block">
+                                    <h1 class="text-start mt-0">Новости недели</h1>
+                                </div>
+
+                                <!--News week-->
+                                <div class="col-xl-6 col-lg-6 col-md-5 col-sm-6">
+                                    <a href="post.html">
+                                        <div class="post-news">
+                                            <img src="assets/img/news-1.jpg" alt="news-1">
+                                            <div class="text-news w-100 h-100 d-flex flex-column align-items-start justify-content-end">
+                                                <h3 class="text-start">Дал взятку за водительское удостоверение</h3>
+                                                <p class="date text-start">06.07.2023</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-xl-6 col-lg-6 col-md-7 col-sm-6">
+                                    <div class="row">
+                                        <div class="col-xl-6 col-sm-6 col-6 p-xl-0 p-md-0 p-sm-1">
+                                                <div class="post-news-three">
+                                                    <img src="assets/img/news-2.jpg" alt="news-2">
+                                                    <div class="text-news w-100 h-100 d-flex flex-column align-items-start justify-content-between">
+                                                        <h6>Скоро экзамены, расскажем, как готовиться</h6>
+                                                        <div class="date-more w-100 d-xl-flex d-sm-block d-flex justify-content-between">
+                                                            <p class="date me-auto">06.07.2023</p>
+                                                            <p><a href="#" class="d-block align-self-end">Подробнее</a></p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                        </div>
+                                        <div class="col-xl-6 col-sm-6 col-6 p-xl-0 p-md-0 p-sm-0">
+                                            <div class="text-news-three">
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-6 col-sm-6 col-6 p-xl-0 p-md-0 p-sm-1">
+                                                <div class="post-news-three">
+                                                    <img src="assets/img/news-3.jpg" alt="news-3">
+                                                    <div class="text-news w-100 h-100 d-flex flex-column align-items-start justify-content-between">
+                                                        <h6>Пора в огород, с чего начать?</h6>
+                                                        <div class="date-more w-100 d-xl-flex d-sm-block d-flex justify-content-between">
+                                                            <p class="date me-auto">06.07.2023</p>
+                                                            <a href="#" class="d-block align-self-end">Подробнее</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                        </div>
+                                        <div class="col-xl-6 col-sm-6 col-6 p-xl-0 p-md-0 p-sm-0">
+                                            <div class="text-news-three">
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-6 col-sm-6 col-6 p-xl-0 p-md-0 p-sm-1">
+                                                <div class="post-news-three mb-0">
+                                                    <img src="assets/img/news-4.jpg" alt="news-4">
+                                                    <div class="text-news w-100 h-100 d-flex flex-column align-items-start justify-content-between">
+                                                        <h6>Какое платье выбрать на выпускной?</h6>
+                                                        <div class="date-more w-100 d-xl-flex d-sm-block d-flex justify-content-between">
+                                                            <p class="date me-auto">06.07.2023</p>
+                                                            <a href="#" class="d-block align-self-end">Подробнее</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                        </div>
+                                        <div class="col-xl-6 col-sm-6 col-6 p-xl-0 p-md-0 p-sm-0">
+                                            <div class="text-news-three">
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-12">
+                                    <div class="link-rubrics">
+                                        <div class="container">
+                                            <div class="row">
+                                                <ul class="list-group col-xl-3 col-lg-3 col-md-6 col-sm-6 col-6">
+                                                    <li class="list-group-item">
+                                                        <a class="nav-link" href="#">Краеведение</a>
+                                                      </li>
+                                                      <li class="list-group-item">
+                                                        <a class="nav-link" href="#">Агропром</a>
+                                                      </li>
+                                                      <li class="list-group-item">
+                                                        <a class="nav-link" href="#">Экономика</a>
+                                                      </li>
+                                                  </ul>
+                                                  <ul class="list-group col-xl-3 col-lg-3 col-md-6 col-sm-6 col-6">
+                                                    <li class="list-group-item">
+                                                        <a class="nav-link" href="#">Власть и общество</a>
+                                                    </li>
+                                                    <li class="list-group-item">
+                                                        <a class="nav-link" href="#">Культура</a>
+                                                    </li>
+                                                    <li class="list-group-item">
+                                                        <a class="nav-link" href="#">Здоровье</a>
+                                                    </li>
+                                                  </ul>
+                                                  <ul class="list-group col-xl-3 col-lg-3 col-md-6 col-sm-6 col-6">
+                                                    <li class="list-group-item">
+                                                        <a class="nav-link" href="#">Спорт</a>
+                                                    </li>
+                                                    <li class="list-group-item">
+                                                        <a class="nav-link" href="#">Самоуправление</a>
+                                                    </li>
+                                                    <li class="list-group-item">
+                                                        <a class="nav-link" href="#">Современники</a>
+                                                    </li>
+                                                  </ul>
+                                                  <ul class="list-group col-xl-3 col-lg-3 col-md-6 col-sm-6 col-6">
+                                                    <li class="list-group-item">
+                                                        <a class="nav-link" href="#">Интервью</a>
+                                                    </li>
+                                                    <li class="list-group-item">
+                                                        <a class="nav-link" href="#">Письма в газету</a>
+                                                    </li>
+                                                  </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!--News people and holiday-->
+                                <div class="title-block">
+                                    <h1 class="text-start">Новости региона</h1>
+                                </div>
+                                <div class="news-people col-xl-6 col-lg-6 col-md-6 col-sm-6">
+                                    <a href="#" class="d-block">
+                                        <div class="post-news-people">
+                                            <img src="assets/img/news-7.jpg" alt="news-7">
+                                            <div class="text-news w-100 d-flex flex-column align-items-start justify-content-end">
+                                                <h5 class="text-start mb-0">Омское Прииртышье</h5>
+                                                <h6 class="subtitle text-start mb-0">Новости региона</h6>
+                                            </div>
+                                        </div>
+                                        <h3>Что интересно нашим односельчанам? Угодим каждому и расскажем все новости региона!</h3>
+                                        <p>Читайте свежие новости нашего региона. Здесь мы рассказываем что происходило. Выставляем свежие новости каждые сутки!</p>
+                                    </a>
+                                </div>
+                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 p-xl-0 p-md-0 p-sm-1">
+                                        <div class="post-news-holiday">
+                                            <img src="assets/img/news-8.jpg" alt="news-8">
+                                            <div class="text-news w-100 h-100 d-flex flex-column align-items-start justify-content-end">
+                                                <h6>Праздник весны</h6>
+                                                <div class="date-more w-100 d-xl-flex d-sm-flex d-flex justify-content-between">
+                                                    <p class="date me-auto">01.03.2023</p>
+                                                    <a href="#" class="d-block align-self-end">Подробнее</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="news-holiday">
+                                            <p>В Одесском недавно прошел праздник весны, наши корреспонденты рассказали и показали самые красочные моменты праздника.</p>
+                                        </div>
+                                        <div class="post-news-holiday mt-0">
+                                            <img src="assets/img/news-9.jpg" alt="news-9">
+                                            <div class="text-news w-100 h-100 d-flex flex-column align-items-start justify-content-end">
+                                                <h6>Спасибо за работу</h6>
+                                                <div class="date-more w-100 d-xl-flex d-sm-flex d-block justify-content-between">
+                                                    <p class="date me-auto">01.05.2023</p>
+                                                    <a href="#" class="d-block align-self-end">Подробнее</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="news-holiday">
+                                            <p class="mb-0">Профессионалов своего дела пригласили в администрацию поселения для награждения медалями за труд.</p>
+                                        </div>
+                                </div>
+
+                                 <!--Calender and archive-->
+                                 <div class="title-block">
+                                    <h1 class="text-start mt-0">Мой край родной</h1>
+                                </div>
+                                <div class="news-people col-xl-6 col-lg-6 col-md-6 col-sm-6">
+                                    <a href="#" class="d-block">
+                                        <div class="post-news-people">
+                                            <img src="assets/img/news-7.jpg" alt="news-7">
+                                            <div class="text-news w-100 d-flex flex-column align-items-start justify-content-end">
+                                                <h5 class="text-start mb-0">Омское Прииртышье</h5>
+                                                <h6 class="subtitle text-start mb-0">Новости региона</h6>
+                                            </div>
+                                        </div>
+                                        <h3>Что интересно нашим односельчанам? Угодим каждому и расскажем все новости региона!</h3>
+                                        <p>Читайте свежие новости нашего региона. Здесь мы рассказываем что происходило. Выставляем свежие новости каждые сутки!</p>
+                                    </a>
+                                </div>
+                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 p-xl-0 p-md-0 p-sm-1">
+                                        <div class="post-news-holiday">
+                                            <img src="assets/img/news-8.jpg" alt="news-8">
+                                            <div class="text-news w-100 h-100 d-flex flex-column align-items-start justify-content-end">
+                                                <h6>Праздник весны</h6>
+                                                <div class="date-more w-100 d-xl-flex d-sm-flex d-flex justify-content-between">
+                                                    <p class="date me-auto">01.03.2023</p>
+                                                    <a href="#" class="d-block align-self-end">Подробнее</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="news-holiday">
+                                            <p>В Одесском недавно прошел праздник весны, наши корреспонденты рассказали и показали самые красочные моменты праздника.</p>
+                                        </div>
+                                        <div class="post-news-holiday mt-0">
+                                            <img src="assets/img/news-9.jpg" alt="news-9">
+                                            <div class="text-news w-100 h-100 d-flex flex-column align-items-start justify-content-end">
+                                                <h6>Спасибо за работу</h6>
+                                                <div class="date-more w-100 d-xl-flex d-sm-flex d-block justify-content-between">
+                                                    <p class="date me-auto">01.05.2023</p>
+                                                    <a href="#" class="d-block align-self-end">Подробнее</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="news-holiday">
+                                            <p>Профессионалов своего дела пригласили в администрацию поселения для награждения медалями за труд.</p>
+                                        </div>
+                                </div>
+
+                                <!--Banner-->
+
+                                <div class="banner-block">
+                                    <div class="col-12 p-0">
+                                        <div class="banner position-relative">
+                                            <img src="assets/img/banner.png" alt="banner">
+                                            <div class="slogan-banner">
+                                                <h1 class="text-center">ZA МИР</h1>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!--Response-->
+                                <div class="row m-0 p-0">
+                                    <div class="title-block">
+                                        <h1 class="text-start">Авторитетное мнение</h1>
+                                    </div>
+                                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+                                        <div class="post-response">
+                                            <img src="assets/img/response-1.jpg" alt="response-1">
+                                            <div class="text-news w-100 h-100 d-flex flex-column align-items-start justify-content-between">
+                                                <h5 class="fio me-auto">Денис Герасимов<br>Программист</h5>
+                                                <div class="title-response w-100">
+                                                    <p class="title">В школах нужны новые компьютеры</p>
+                                                    <div class="date-more w-100 d-xl-flex d-sm-flex d-flex justify-content-between">
+                                                        <p class="date me-auto">06.06.2023</p>
+                                                        <a href="#" class="d-block align-self-end">Подробнее</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+                                        <div class="post-response">
+                                            <img src="assets/img/response-2.jpg" alt="response-2">
+                                            <div class="text-news w-100 h-100 d-flex flex-column align-items-start justify-content-between">
+                                                <h5 class="fio me-auto">Иван Иванов<br>Бизнесмен</h5>
+                                                <div class="title-response w-100">
+                                                    <p class="title">Я планирую отремонтировать школу</p>
+                                                    <div class="date-more w-100 d-xl-flex d-sm-flex d-flex justify-content-between">
+                                                        <p class="date me-auto">06.06.2023</p>
+                                                        <a href="#" class="d-block align-self-end">Подробнее</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+                                        <div class="post-response">
+                                            <img src="assets/img/response-3.jpg" alt="response-3">
+                                            <div class="text-news w-100 h-100 d-flex flex-column align-items-start justify-content-between">
+                                                <h5 class="fio me-auto">Иван Иванов<br>Бизнесмен</h5>
+                                                <div class="title-response w-100">
+                                                    <p class="title">Я планирую отремонтировать школу</p>
+                                                    <div class="date-more w-100 d-xl-flex d-sm-flex d-flex justify-content-between">
+                                                        <p class="date me-auto">01.03.2023</p>
+                                                        <a href="#" class="d-block align-self-end">Подробнее</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+                                        <div class="post-response">
+                                            <img src="assets/img/response-4.jpg" alt="response-4">
+                                            <div class="text-news w-100 h-100 d-flex flex-column align-items-start justify-content-between">
+                                                <h5 class="fio me-auto">Денис Герасимов<br>Программист</h5>
+                                                <div class="title-response w-100">
+                                                    <p class="title">В школах нужны новые компьютеры</p>
+                                                    <div class="date-more w-100 d-xl-flex d-sm-flex d-flex justify-content-between">
+                                                        <p class="date me-auto">06.06.2023</p>
+                                                        <a href="#" class="d-block align-self-end">Подробнее</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+                                        <div class="post-response">
+                                            <img src="assets/img/response-5.jpg" alt="response-5">
+                                            <div class="text-news w-100 h-100 d-flex flex-column align-items-start justify-content-between">
+                                                <h5 class="fio me-auto">Иван Иванов<br>Бизнесмен</h5>
+                                                <div class="title-response w-100">
+                                                    <p class="title">Я планирую отремонтировать школу</p>
+                                                    <div class="date-more w-100 d-xl-flex d-sm-flex d-flex justify-content-between">
+                                                        <p class="date me-auto">06.06.2023</p>
+                                                        <a href="#" class="d-block align-self-end">Подробнее</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+                                        <div class="post-response">
+                                            <img src="assets/img/response-6.jpg" alt="response-6">
+                                            <div class="text-news w-100 h-100 d-flex flex-column align-items-start justify-content-between">
+                                                <h5 class="fio me-auto">Иван Иванов<br>Бизнесмен</h5>
+                                                <div class="title-response w-100">
+                                                    <p class="title">Я планирую отремонтировать школу</p>
+                                                    <div class="date-more w-100 d-xl-flex d-sm-flex d-flex justify-content-between">
+                                                        <p class="date me-auto">01.03.2023</p>
+                                                        <a href="#" class="d-block align-self-end">Подробнее</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                 <div class="col-xl-8 col-lg-7 col-md-6 col-sm-6 col-6 p-sm-1">
+                                    <a href="#">
+                                        <div class="post-calendar">
+                                            <img src="assets/img/news-10.jpg" alt="news-10">
+                                            <div class="text-news w-100 h-100 d-flex flex-column align-items-start justify-content-between">
+                                                <p class="date text-break ms-auto">06 07</p>
+                                                <div class="date-more w-100 d-block justify-content-between">
+                                                    <h5 class="text-start mb-0">День календаря</h5>
+                                                    <h6 class="subtitle text-start mb-0">Празднуем троицу</h6>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-xl-4 col-lg-5 col-md-6 col-sm-6 col-6">
+                                    <div class="arhive">
+                                        <div class="title-block">
+                                            <h3 class="text-start">Архив новостей</h3>
+                                        </div>
+                                        <ul class="list-group">
+                                            <li class="list-group-item">
+                                                <a href="#">Январь - Декабрь 2015</a>
+                                            </li>
+                                            <li class="list-group-item">
+                                                <a href="#">Январь - Декабрь 2016</a>
+                                            </li>
+                                            <li class="list-group-item">
+                                                <a href="#">Январь - Декабрь 2017</a>
+                                            </li>
+                                            <li class="list-group-item">
+                                                <a href="#">Январь - Декабрь 2018</a>
+                                            </li>
+                                            <li class="list-group-item">
+                                                <a href="#">Январь - Декабрь 2019</a>
+                                            </li>
+                                            <li class="list-group-item">
+                                                <a href="#">Январь - Декабрь 2020</a>
+                                            </li>
+                                            <li class="list-group-item">
+                                                <a href="#">Январь - Декабрь 2021</a>
+                                            </li>
+                                            <li class="list-group-item">
+                                                <a href="#">Январь - Декабрь 2022</a>
+                                            </li>
+                                          </ul>
+                                    </div>
+                                </div>
+
+                                <!--Advertising-->
+                                <div class="row m-0 p-0">
+                                    <div class="title-block">
+                                        <h1 class="text-center">Реклама</h1>
+                                    </div>
+                                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6">
+                                        <a href="#">
+                                            <div class="post-advertising">
+                                                <img src="assets/img/advertising-1.jpg" alt="advertising-1">
+                                                <div class="text-news w-100 h-100 d-flex flex-column align-items-start justify-content-between">
+                                                    <h4 class="mx-auto text-center">Работа в Одесском</h4>
+                                                    <div class="title-advertising w-100">
+                                                        <h5 class="text-center">8-800-555-35-35</h5>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6">
+                                        <a href="#">
+                                            <div class="post-advertising">
+                                                <img src="assets/img/advertising-2.jpg" alt="advertising-2">
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6">
+                                        <a href="#">
+                                            <div class="post-advertising">
+                                                <img src="assets/img/advertising-3.jpg" alt="advertising-3">
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6">
+                                        <a href="#">
+                                            <div class="post-advertising">
+                                                <img src="assets/img/advertising-4.jpg" alt="advertising-4">
+                                            </div>
+                                        </a>
+                                    </div>
+                                    
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <!--Right news-->
+                        <div class="col-xl-3 col-md-4 col-sm-3 col-12 d-flex">
+                            <div class="line"></div>
+                            <div class="news-project">
+                                <div class="news-link text-center">
+                                    <img src="assets/img/news-5.jpg" alt="news-5">
+                                    <a href="#">Читайте в свежем номере</a>
+                                </div>
+                                <div class="news-link-2 text-center">
+                                    <img src="assets/img/news-6.png" alt="news-6">
+                                </div>
+                                <div class="news-link-2 text-center">
+                                    <img src="assets/img/news-11.jpg" alt="news-11">
+                                </div>
+                                <div class="d-block text-center">
+                                    <button class="btn btn-news w-100 mb-0">Старая версия сайта</button>
+                                </div>
+                                <div class="d-block text-center mt-0">
+                                    <button class="btn btn-news w-100">Архив газеты</button>
+                                </div>
+                                <div class="news-link-2 text-center mt-0">
+                                    <form class="search-news d-xl-flex d-md-flex d-sm-block d-flex align-items-center" role="search">
+                                        <input class="form-control me-2" type="search" placeholder="Поиск..." aria-label="Поиск...">
+                                        <button class="btn m-0" type="submit">Искать</button>
+                                    </form>
+                                </div>
+                                <div class="news-link-2 text-center">
+                                    <a href="#">Присоединяйся к нам в социальных сетях</a>
+                                    <div class="social-icons d-flex align-items-center justify-content-around">
+                                        <a href="#">
+                                            <img src="assets/img/vk.svg" alt="vk">
+                                        </a>
+                                        <a href="#">
+                                            <img src="assets/img/odnoklassniki.svg" alt="odnoklassniki">
+                                        </a>
+                                        <a href="#">
+                                            <img src="assets/img/telegram.svg" alt="telegram">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="news-link-2 text-center">
+                                    <img src="assets/img/news-12.jpg" alt="news-12">
+                                </div>
+                                <div class="news-link-2 text-center">
+                                    <img src="assets/img/news-13.jpg" alt="news-13">
+                                </div>
+                                <div class="news-link-2 text-center">
+                                    <img src="assets/img/news-14.jpg" alt="news-14">
+                                </div>  
+                                <div class="news-link-2 text-center">
+                                    <img src="assets/img/news-15.jpg" alt="news-15">
+                                </div>
+                                <div class="news-link-2 text-center">
+                                    <img src="assets/img/news-16.jpg" alt="news-16">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+        <!--Footer-->
+        <footer>
+            <div class="footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-9 col-sm-9">
+                            <div class="contact">
+                                <p>Сетевое издание "Пламя", зарегистрировано Федеральной службой по надзору в сфере связи, информационных технологий и массовых коммуникаций (Роскомнадзор)</p>
+                                <p>Учредитель бюджетное учреждение Омской области «Редакция газеты «Пламя»,главный редактор Иванов И.И.</p>
+                                <p>Адрес электронной почты: mail@mail.ru</p>
+                                <p>Телефон редакции: +7 (999) 999-99-99</p>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-sm-3">
+                            <div class="social-icons d-flex align-items-center justify-content-around mt-0">
+                                <a href="#">
+                                    <img src="assets/img/vk.svg" alt="vk">
+                                </a>
+                                <a href="#">
+                                    <img src="assets/img/odnoklassniki.svg" alt="odnoklassniki">
+                                </a>
+                                <a href="#">
+                                    <img src="assets/img/telegram.svg" alt="telegram">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="copyright">
+                                <p class="text-center mb-0">© 2011 - 2023 Разработка и поддержка: <a href="https://sibsr.ru/">ООО «СибСР»</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </body>
+     <!--JQuery link-->
+     <script src="assets/script/jquery.js"></script>
+     <!--Bootstrap JS-->
+     <script src="assets/script/bootstrap.bundle.min.js"></script>
+     <!--JS-->
+     <script src="assets/script/script.js"></script>
+</html>
+
